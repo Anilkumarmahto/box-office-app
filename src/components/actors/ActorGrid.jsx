@@ -13,7 +13,7 @@ const ActorGrid = ({ actors }) => {
           image={
             data.person.image
               ? data.person.image.medium
-              : '/public/not-found-image.png'
+              : '/not-found-image.png'
           }
         />
       ))}
